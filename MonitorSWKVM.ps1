@@ -7,12 +7,12 @@ $exeName = "ControlMyMonitor.exe"
 $exePath = "$dir\$exeName"
 $inputSelectCommand = "60"
 
-$portraitMonitorID = "\\.\DISPLAY1\Monitor0"
-$mainMonitorID = "\\.\DISPLAY3\Monitor0"
-$rightMonitorID = "\\.\DISPLAY2\Monitor0"
+$portraitMonitorID = "MONITOR\ACR0623\{4d36e96e-e325-11ce-bfc1-08002be10318}\0003"
+$mainMonitorID = "424806CE24201"
+$rightMonitorID = "MONITOR\ACR0623\{4d36e96e-e325-11ce-bfc1-08002be10318}\0005"
 
 # Portrait, Main, Right Monitor in that order (InputSelect Value)
-$laptopValues = @("18","18","18")
+$laptopValues = @("16","18","17")
 # Portrait, Main, Right Monitor in that order (InputSelect Value)
 $desktopValues = @("15","15","16")
 
